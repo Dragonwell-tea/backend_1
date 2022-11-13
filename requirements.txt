@@ -1,0 +1,8 @@
+Flask~=2.0.3
+Flask-Cors~=3.0.10
+Flask-SQLAlchemy~=2.5.1
+psycopg2-binary~=2.9.3
+schema~=0.7.5
+PyJWT~=2.3.0
+bcrypt~=3.2.2
+cryptography~=37.0.2
