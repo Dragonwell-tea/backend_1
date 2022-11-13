@@ -14,10 +14,12 @@ schema~=0.7.5
 PyJWT~=2.3.0  
 bcrypt~=3.2.2  
 cryptography~=37.0.2  
-Database mysql, need to change to their own mysql account name and password. In config.py: SQLALCHEMY_DATABASE_URI = "mysql://root:root@localhost/marketplace"  
+DataBase(mysql)(You need to create a database locally called marketplace, The table is automatically created)
 ---
+Database mysql, need to change to their own mysql account name and password. In config.py: SQLALCHEMY_DATABASE_URI = "mysql://root:root@localhost/marketplace"  
+----
 first root: ur mysql id  second root: ur password  
 (EXTRA: terminal run: pip install mysqlclient)  
-----
+
 
 
