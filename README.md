@@ -1,5 +1,7 @@
-#UMD market_backend    
-##First  
+UMD market_backend
+====
+First  
+-
 Need to configure the `flask` environment. https://flask.palletsprojects.com/en/2.2.x/ <br>
 ##Second  
 Run: flask run --port 5000 or click run button in pycharm or ur compile.<br>
@@ -13,7 +15,7 @@ schema~=0.7.5
 PyJWT~=2.3.0  
 bcrypt~=3.2.2  
 cryptography~=37.0.2  
-##Third  
+Third  
 -
 DataBase(mysql)(You need to create a database locally called marketplace, The table is automatically created)<br>
 Database mysql, need to change to their own mysql account name and password.<br>
