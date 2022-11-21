@@ -6,7 +6,20 @@ Need to configure the `flask` environment. https://flask.palletsprojects.com/en/
 ---
 Second  
 -
-Run: flask run --port 5000 or click run button in pycharm or ur compile.<br>
+`Before you run it`
+Run these order in ur terminal
+```Bash
+pip install pymysql
+pip install flask-sqlalchemy
+pip install flask-migrate
+```
+`After that:`
+```Bash
+flask db init
+flask db migrate
+flask db upgrade
+```
+`At last:` Run: flask run --port 5000 or click run button in pycharm or ur compile.<br>
 Requirment(pycharm open the project, according to the compiler prompts will automatically add, some plug-ins may need to be manually configured)<br>
 `My version`<br>
 Flask~=2.0.3  
@@ -28,7 +41,6 @@ SQLALCHEMY_DATABASE_URI = "mysql://root:root@localhost/marketplace"
 ```
 <br>
 first root: ur mysql id  second root: ur password  
-(EXTRA: terminal run: pip install mysqlclient)  
 ----
 
 
